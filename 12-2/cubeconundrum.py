@@ -1,5 +1,5 @@
 
-numMarbles = {
+numCubes = {
     "red," : 12,
     "blue," : 14,
     "green," : 13,
@@ -31,7 +31,7 @@ with open("12-2/input.txt", "r") as f:
                     # print(gamesSplit[i],gamesSplit[i+1],numMarbles[gamesSplit[i+1]])
                     # print(gamesSplit[i+1])
                     # print(numMarbles[gamesSplit[i+1]])
-                    if int(gamesSplit[i]) > numMarbles[gamesSplit[i+1].strip()]:
+                    if int(gamesSplit[i]) > numCubes[gamesSplit[i+1].strip()]:
                         # print("no")
                         isValid = False
                         break
