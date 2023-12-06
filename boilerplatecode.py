@@ -1,3 +1,5 @@
+lines = []
+
 with open("12-0/input.txt") as f:
     lines = [line.strip() for line in f.readlines()]
 
