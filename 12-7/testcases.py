@@ -1,5 +1,7 @@
 import unittest
+
 from camelcards import partOneSolve, partTwoSolve
+
 
 class testSolutions(unittest.TestCase):
     partOneSampleSolution = 6440
